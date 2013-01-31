@@ -1,9 +1,11 @@
+<?php 
+session_start();
 
+require 'functions.php';
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
 		<title>Unknown</title>
