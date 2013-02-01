@@ -1,10 +1,10 @@
 <?php 
 // Display message if there is one in session data
-if(isset($_SESSION['error'])) {
+if(isset($_SESSION['message'])) {
 	
-	echo "<div class = \"alert alert-{$_SESSION['error']['type']}\">{$_SESSION['error']['text']}</div>";
+	echo "<div class = \"alert alert-{$_SESSION['message']['type']}\">{$_SESSION['message']['text']}</div>";
 	
-	unset($_SESSION['error']);
+	unset($_SESSION['message']);
 }
 
 //Store the 'p' parameter from the QS into a variable

@@ -1,21 +1,21 @@
 <h2>Add Gum To Vault</h2>
-<form class="form-horizontal" action="actions/add_band.php" method="post">
+<form class="form-horizontal" action="actions/add_gum.php" method="post">
 	<div class="control-group">
 	    <label class="control-label" for="band_name">Brand</label>
 	    <div class="controls">
-	   		<?php  echo input('band_name','required')?>
+	   		<?php  echo input('brand','required')?>
 	    </div>
 	 </div>
 	 <div class="control-group">
 	    <label class="control-label" for="band_genre">Quantity</label>
 	    <div class="controls">
-	    	<?php  echo input('band_genre','required')?>
+	    	<?php  echo input('quantity','required')?>
 	    </div>
 	 </div>
 	 <div class="control-group">
 	    <label class="control-label" for="band_numalbums">Rank</label>
 	    <div class="controls">
-	    	<?php  echo input('band_numalbums','required')?>
+	    	<?php  echo input('rank','required')?>
 	    </div>
 	 </div>
 	 <div class="form-actions">

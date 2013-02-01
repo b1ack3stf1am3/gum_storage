@@ -8,7 +8,8 @@ require 'functions.php';
 	<head>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<title>Unknown</title>
+		<title>Gum Vault</title>
+		<link rel="icon" type="image/png" href=Bubble-Gum.png />
 	</head>
 	<body>
 		<div id="wrapper" class="container">
