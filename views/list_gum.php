@@ -22,7 +22,7 @@
 			echo 	"<td>$brand</td>";
 			echo 	"<td>$quantity</td>";
 			echo 	"<td>$rank</td>";
-			echo	"<td><a href=\"./?p=edit_gum&brand=$i\"><i class=\"icon-edit\"></i>Edit</a> <a href=\"actions/delete_gum.php?gum=$i\"><i class=\"icon-edit\"></i>Delete</a></td>";
+			echo	"<td><button><a href=\"./?p=edit_gum&brand=$i\"><i class=\"icon-edit\"></i>Edit</a></button> <button class=\"\"><a href=\"actions/delete_gum.php?gum=$i\"><i class=\"icon-edit\"></i>Delete</a></button></td>";
 			echo'</tr>';
 			$i++;
 		}
